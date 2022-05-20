@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row1 {
+    margin: 5%;
+    width: 500px;
+    display: inline;
+    float: left;
+}
+
+.row2 {
+    margin: 5%;
+    border: solid 1px;
+    width: 602px;
+    display: inline;
+    float: right;
+}
+
+.first {
+    width: 300px;
+    display: inline;
+    float: left;
+}
+
+.first .box1 {
+    height: 200px;
+    padding: 10px;
+}
+
+.first .box1:hover {
+    transform: scale(1.1);
+    transition: transform 400ms;
+    background-color: #872891
+}
+.first .box2:hover {
+    transform: scale(1.1);
+    transition: transform 400ms;
+    background-color: #ffcd05
+}
+.second .box3:hover {
+    transform: scale(1.1);
+    transition: transform 400ms;
+    background-color: #2382cb
+}
+.second .box4:hover {
+    transform: scale(1.1);
+    transition: transform 400ms;
+    background-color: #00b45a
+}
+
+.first .box2 {
+    height: 200px;
+    padding: 10px;
+}
+
+.second {
+    width: 300px;
+    display: inline;
+    float: right;
+}
+
+.second .box3 {
+    height: 200px;
+    padding: 10px;
+}
+
+.second .box4 {
+    height: 200px;
+    padding: 10px;
+}
+
+.header2 {
+    font-size: small;
+    color: #585858;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.boxx {
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.boxx img {
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+.boxx p {
+    font-weight: bolder;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.firsth1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    opacity: 0.6;
+}
+
+.firsth2 {
+    color: black;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.afterlinear {
+    padding-top: 10px;
+    font-size: large;
+}
+
+.linear {
+    padding-top: 60px;
+    padding-bottom: 30px
+}
